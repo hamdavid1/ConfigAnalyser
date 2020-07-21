@@ -30,7 +30,7 @@ class OutputLogging():
         self.output.write(message)
 
     def print_to_stdout(self, message):
-        print message
+        print (message)
 
     def print_message(self, message):
         """ Print message to both STDOUT and output Logfile"""
